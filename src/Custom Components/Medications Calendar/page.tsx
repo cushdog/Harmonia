@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Check } from 'lucide-react';
+// import { Check } from 'lucide-react';
 import { format } from 'date-fns';
 import { logMedicationTaken } from '@/app/actions/medications/actions';
 import { Database } from '@/types/types_db';

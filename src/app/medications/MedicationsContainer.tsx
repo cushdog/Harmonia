@@ -51,7 +51,7 @@ export default function MedicationsContainer({
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="md:col-span-2">
             <CardHeader>
-              <CardTitle>Today's Schedule</CardTitle>
+              <CardTitle>Today&apos;s Schedule</CardTitle>
             </CardHeader>
             <CardContent>
               <Tabs defaultValue="list" className="w-full">

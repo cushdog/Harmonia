@@ -19,6 +19,7 @@ export default function NewEntryForm() {
     try {
       await createJournalEntry(content)
       setContent('')
+      /* eslint-disable @typescript-eslint/no-explicit-any */
     } catch (err: any) {
       console.error(err)
       setError('Failed to create entry')

@@ -11,8 +11,6 @@ import {
   CardContent,
 } from "@/components/ui/card";
 import { LogOut, LogIn } from "lucide-react";
-import Navbar from "@/Custom Components/Navbar/page";
-import ThemeToggle from "@/Custom Components/Theme Provider/page";
 
 export default async function Home() {
   const supabase = createServerComponentClient<Database>({ cookies });

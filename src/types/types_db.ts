@@ -76,8 +76,11 @@ export interface Database {
         }
       }
     }
+    /* eslint-disable @typescript-eslint/no-empty-object-type */
     Views: {}
+    /* eslint-disable @typescript-eslint/no-empty-object-type */
     Functions: {}
+    /* eslint-disable @typescript-eslint/no-empty-object-type */
     Enums: {
       medication_frequency: 'once_daily' | 'twice_daily' | 'three_times_daily' | 'four_times_daily' | 'every_other_day' | 'weekly' | 'as_needed'
     }
