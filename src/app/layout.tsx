@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 import Navbar from "@/Custom Components/Navbar/page";
 import { SupabaseProvider } from "@/lib/supabase-provider";
 import ThemeToggle from "@/Custom Components/Theme Provider/page";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
             </div>
             {children}
             <Toaster position="top-right" />
+            <Analytics />
           </SupabaseProvider>
         </ThemeProvider>
       </body>
